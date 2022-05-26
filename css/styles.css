@@ -1,0 +1,288 @@
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-text-color: #ffffff;
+    --accent-color: #2196f3;
+    --black-logo-color: #000000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --white-background-color: #ffffff;
+    --hero-background-color: #2f303a;
+    --team-background-color: #f5f4fa;
+    --btn-color-second: #188CE8;
+    
+}
+
+/* убираем точки списков */
+.list{
+    list-style:none;
+    /*padding: 0;
+    margin: 0;*/}
+
+/* убираем подчеркивание ссылок */
+a{text-decoration:none;
+    list-style-type: none;}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+}
+
+/* ------------ШАПКА-------------- */
+.link.current{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.portfolio-one,
+.contakt-one{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.studia-one{ 
+    }
+
+.logo-link{
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.black{
+    color: var(--black-logo-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/*.link-activ{
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+}*/
+   
+
+.link:hover,
+.link:focus{
+   color: var(--accent-color);
+}
+
+
+/*--header--*/
+
+.mail-link,.header-tel{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.hero{
+    background: var(--hero-background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--white-text-color);
+    text-align: center;
+    letter-spacing: 0.06em
+}
+.hero-title{
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--white-text-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+    /*margin-bottom: 30px;
+    margin-top: 0*/;
+}
+
+.modal-btn {
+    
+    font-family: inherit;
+    font-weight: 700;
+    background: var(--accent-color);
+    color: var(--white-text-color);
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+
+    /*min-width: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 10px 32px;
+    min-width: 200px;
+    min-height: 50px;
+    text-align: center;*/
+    }
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--btn-color-second);
+}
+.header{
+    background: var(--white-background-color);
+    }
+
+/* ------------ПРЕИМУЩЕСТВА-------------- */
+.features{
+    background: var(--white-background-color);
+}
+
+.features-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.features-text
+{
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.work{
+    background: var(--white-background-color);
+}
+
+.work-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/* ----------------КОМАНДА----------------- */
+.team{
+    background: var(--team-background-color);
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+        
+}
+.team-list{
+    background: var(--white-background-color);
+
+}
+
+.team-list-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-list-text{
+    
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* ----------------ПОДВАЛ----------------- */
+.footer{
+    background: var(--hero-background-color);  
+}
+.white {
+    color: var(--white-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.footer-mail,.footer-tel{
+    color: var(--footer-text-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.adres{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--white-text-color);
+    letter-spacing: 0.03em;
+}
+/* --------------------ПОРТФОЛИО----------------- */
+/* ---------------------------------------------- */
+.portfolio-btn{
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-text-color);
+    background: var(--team-background-color);
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    letter-spacing: 0.03em;}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    cursor: pointed;
+}
+.studia-two,
+.contact-two{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.portfolio-text{
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
