@@ -397,9 +397,16 @@ body{
 }
 /* --------------------ПОРТФОЛИО----------------- */
 /* ---------------------------------------------- */
+
+
+.portfolio-section{
+padding-top: 94px;
+padding-bottom: 94px;}
+
 .portfolio-btn{
 
     padding: 6px 22px 6px 22px;
+    margin-bottom: 50px;
 
     font-family: inherit;
     cursor: pointer;
